@@ -8,7 +8,9 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between py-5 font-medium'>
-      <img src={assets.logo} className='w-36' alt="" />
+      <Link to='/'>
+        <img src={assets.logo} className='w-48' alt="" />
+      </Link>
 
       <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
 
@@ -67,7 +69,7 @@ const Navbar = () => {
             <img src={assets.dropdown_icon} className='h-4 rotate-180' alt="" />
             <p>Back</p>
           </div>
-          
+
           <NavLink className='py-2 pl-6 border' to='/' onClick={() => setVisible(false)}>HOME</NavLink>
           <NavLink className='py-2 pl-6 border' to='/collection' onClick={() => setVisible(false)}>COLLECTION</NavLink>
           <NavLink className='py-2 pl-6 border' to='/about' onClick={() => setVisible(false)}>ABOUT</NavLink>
