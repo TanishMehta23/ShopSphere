@@ -1,6 +1,10 @@
-# <img src="./frontend/src/assets/logo.png" alt="ShopSphere" height="40" style="vertical-align:middle"/> ShopSphere
+# ShopSphere
 
 <div align="center">
+
+<img src="./frontend/src/assets/favicon.png" alt="ShopSphere Logo" width="120"/>
+
+<br/>
 
 A **full-stack e-commerce platform** built with the MERN stack — featuring a customer storefront, a powerful admin dashboard, and multi-gateway payment integration.
 
