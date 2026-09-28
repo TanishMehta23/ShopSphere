@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <img src={assets.logo} className='mb-5 w-48' alt="" />
           <p className='w-full md:w-2/3 text-gray-600'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos modi corrupti enim quia similique maxime fugiat fugit doloremque minus numquam.
+            ShopSphere is your ultimate fashion destination — offering curated styles for men, women, and kids with seamless shopping and fast delivery across India.
           </p>
         </div>
 

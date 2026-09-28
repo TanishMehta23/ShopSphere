@@ -13,10 +13,10 @@ const About = () => {
       <div className='my-10 flex flex-col md:flex-row gap-16'>
         <img src={assets.about_img} className='w-full md:max-w-[450px]'/>
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum distinctio fugiat aperiam temporibus non obcaecati provident illo quaerat doloremque in repellendus voluptates quo cumque iste dolorem numquam doloribus, aliquid odio perspiciatis vero animi pariatur ad ipsam autem. Harum, nihil aliquam.</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ex recusandae quia blanditiis sunt. Corporis, dolore? Molestias velit omnis obcaecati amet culpa minus. Autem deleniti veniam temporibus odio aspernatur architecto cumque sunt omnis vero. Non.</p>
+          <p>Welcome to ShopSphere — your one-stop destination for premium fashion and lifestyle products. Founded with a passion for style and quality, we bring together a carefully curated collection of clothing, accessories, and more, catering to men, women, and kids across the globe.</p>
+          <p>At ShopSphere, we believe that great style should be accessible to everyone. That's why we work with trusted brands and artisans to deliver products that blend contemporary design with everyday comfort — all at prices that make sense. From our easy-to-navigate catalog to our seamless checkout experience, every detail is built around you.</p>
           <b className='text-gray-800'>Our Mission</b>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perspiciatis, autem vitae perferendis inventore ipsam explicabo, eligendi iure quos earum pariatur ratione eius omnis consectetur!</p>
+          <p>Our mission is to redefine online shopping by delivering an exceptional, personalized experience. We are committed to offering high-quality products, transparent pricing, and world-class customer support — making ShopSphere the brand you trust, every time you shop.</p>
         </div>
       </div>
 
@@ -34,7 +34,7 @@ const About = () => {
         </div>
         <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
           <p>Exceptional Customer Service: </p>
-          <p className='text-gray-600'>Our team of dedicated professionals is here to assist you the way, ensuring yur satisfaction is our top priority.</p>
+          <p className='text-gray-600'>Our team of dedicated professionals is here to assist you every step of the way, ensuring your satisfaction is our top priority.</p>
         </div>
       </div>
 
